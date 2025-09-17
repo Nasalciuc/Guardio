@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    
+    <!-- Romanian Coat of Arms - Simplified version -->
+    <group android:scaleX="0.8" android:scaleY="0.8" android:pivotX="60" android:pivotY="60">
+        <!-- Eagle body -->
+        <path
+            android:fillColor="#1976D2"
+            android:pathData="M60,20 L70,35 L80,30 L75,45 L85,40 L80,55 L70,50 L65,65 L55,60 L50,75 L40,70 L35,55 L25,60 L20,45 L30,40 L25,30 L35,35 Z" />
+        
+        <!-- Eagle head -->
+        <path
+            android:fillColor="#1976D2"
+            android:pathData="M60,17 A8,8 0 1,1 60,33 A8,8 0 1,1 60,17 Z" />
+        
+        <!-- Beak -->
+        <path
+            android:fillColor="#1976D2"
+            android:pathData="M60,20 L65,15 L60,18 L55,15 Z" />
+        
+        <!-- Wings details -->
+        <path
+            android:fillColor="#1976D2"
+            android:pathData="M45,40 L50,35 L55,40 L50,45 Z" />
+        <path
+            android:fillColor="#1976D2"
+            android:pathData="M75,40 L80,35 L85,40 L80,45 Z" />
+        
+        <!-- Crown -->
+        <path
+            android:fillColor="#1976D2"
+            android:pathData="M50,15 L55,10 L60,12 L65,10 L70,15 L65,18 L60,16 L55,18 Z" />
+        
+        <!-- Cross on crown -->
+        <path
+            android:fillColor="#1976D2"
+            android:pathData="M58,8 L62,8 L62,12 L58,12 Z M60,6 L60,14" />
+    </group>
+</vector>

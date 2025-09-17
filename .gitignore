@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+.venv/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Env
+.env
+
+# VSCode
+.vscode/
+
+# Other
+*.log
+/node_modules
+# Android / existing project ignores (extend as needed)
+*.iml
+.gradle
+local.properties
+/.idea
+/.gradle
+build/
+captures/
+.externalNativeBuild
+.cxx
+*.apk
+*.aab
+*.keystore
+*.jks
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties

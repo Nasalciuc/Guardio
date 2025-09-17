@@ -1,0 +1,901 @@
+{
+  "metadata": {
+    "exportedAt": "2025-09-13T17:24:18.893Z",
+    "componentName": "Row",
+    "totalElements": 46,
+    "nestingDepth": 6,
+    "plugin": "Figma to JSON Exporter"
+  },
+  "designTokens": {
+    "colors": {
+      "color-rgb(245, 245, 245)": "rgb(245, 245, 245)",
+      "color-rgb(18, 18, 18)": "rgb(18, 18, 18)",
+      "color-rgb(56, 56, 56)": "rgb(56, 56, 56)"
+    },
+    "fonts": {
+      "onest": {
+        "family": "Onest",
+        "sizes": {
+          "size-14": "14px",
+          "size-24": "24px",
+          "size-16": "16px"
+        },
+        "weights": {
+          "weight-500": "500",
+          "weight-600": "600",
+          "weight-400": "400"
+        }
+      }
+    },
+    "spacing": {
+      "gap-32": "32px",
+      "padding-top-12": "12px",
+      "padding-right-12": "12px",
+      "padding-bottom-12": "12px",
+      "padding-left-12": "12px",
+      "gap-10": "10px",
+      "padding-top-24": "24px",
+      "padding-right-24": "24px",
+      "padding-bottom-24": "24px",
+      "padding-left-24": "24px",
+      "gap-24": "24px",
+      "gap-8": "8px",
+      "gap-12": "12px",
+      "gap-16": "16px"
+    },
+    "effects": {}
+  },
+  "structure": {
+    "name": "row",
+    "type": "FRAME",
+    "size": {
+      "w": 1280,
+      "h": 513
+    },
+    "styles": {
+      "layout": {
+        "direction": "row",
+        "gap": 32,
+        "align": {
+          "main": "start",
+          "cross": "start"
+        }
+      }
+    },
+    "children": [
+      {
+        "name": "card",
+        "type": "FRAME",
+        "size": {
+          "w": 405,
+          "h": 513
+        },
+        "styles": {
+          "bg": "rgb(245, 245, 245)",
+          "radius": 16,
+          "layout": {
+            "direction": "column",
+            "gap": 0,
+            "align": {
+              "main": "start",
+              "cross": "start"
+            }
+          }
+        },
+        "children": [
+          {
+            "name": "frame-634190",
+            "type": "FRAME",
+            "size": {
+              "w": 405,
+              "h": 257
+            },
+            "styles": {
+              "layout": {
+                "direction": "column",
+                "gap": 10,
+                "align": {
+                  "main": "start",
+                  "cross": "start"
+                },
+                "padding": [
+                  12,
+                  12,
+                  12,
+                  12
+                ]
+              }
+            },
+            "children": [
+              {
+                "name": "image",
+                "type": "FRAME",
+                "size": {
+                  "w": 381,
+                  "h": 233
+                },
+                "styles": {
+                  "layout": {
+                    "direction": "column",
+                    "gap": 0,
+                    "align": {
+                      "main": "end",
+                      "cross": "center"
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "name": "placeholder-image",
+                    "type": "RECTANGLE",
+                    "size": {
+                      "w": 381,
+                      "h": 233
+                    },
+                    "styles": {
+                      "radius": 12
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "content",
+            "type": "FRAME",
+            "size": {
+              "w": 405,
+              "h": 256
+            },
+            "styles": {
+              "layout": {
+                "direction": "column",
+                "gap": 24,
+                "align": {
+                  "main": "center",
+                  "cross": "start"
+                },
+                "padding": [
+                  24,
+                  24,
+                  24,
+                  24
+                ]
+              }
+            },
+            "children": [
+              {
+                "name": "content-top",
+                "type": "FRAME",
+                "size": {
+                  "w": 357,
+                  "h": 160
+                },
+                "styles": {
+                  "layout": {
+                    "direction": "column",
+                    "gap": 8,
+                    "align": {
+                      "main": "start",
+                      "cross": "start"
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "name": "tagline-wrapper",
+                    "type": "FRAME",
+                    "size": {
+                      "w": 134,
+                      "h": 24
+                    },
+                    "styles": {
+                      "layout": {
+                        "direction": "row",
+                        "gap": 12,
+                        "align": {
+                          "main": "start",
+                          "cross": "center"
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "tag-outlined",
+                        "type": "INSTANCE",
+                        "size": {
+                          "w": 0,
+                          "h": 0
+                        }
+                      },
+                      {
+                        "name": "text",
+                        "type": "TEXT",
+                        "size": {
+                          "w": 70,
+                          "h": 20
+                        },
+                        "content": "5 min read",
+                        "styles": {
+                          "bg": "rgb(18, 18, 18)",
+                          "text": {
+                            "family": "Onest",
+                            "size": 14,
+                            "weight": "500",
+                            "align": "center"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "content",
+                    "type": "FRAME",
+                    "size": {
+                      "w": 357,
+                      "h": 128
+                    },
+                    "styles": {
+                      "layout": {
+                        "direction": "column",
+                        "gap": 16,
+                        "align": {
+                          "main": "start",
+                          "cross": "start"
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "heading",
+                        "type": "TEXT",
+                        "size": {
+                          "w": 357,
+                          "h": 64
+                        },
+                        "content": "Vreau să-mi înscriu copilul la creșă sau grădiniță",
+                        "styles": {
+                          "bg": "rgb(18, 18, 18)",
+                          "text": {
+                            "family": "Onest",
+                            "size": 24,
+                            "weight": "600",
+                            "align": "left"
+                          }
+                        }
+                      },
+                      {
+                        "name": "text",
+                        "type": "TEXT",
+                        "size": {
+                          "w": 357,
+                          "h": 48
+                        },
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                        "styles": {
+                          "bg": "rgb(56, 56, 56)",
+                          "text": {
+                            "family": "Onest",
+                            "size": 16,
+                            "weight": "400",
+                            "align": "left"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "actions",
+                "type": "FRAME",
+                "size": {
+                  "w": 357,
+                  "h": 24
+                },
+                "styles": {
+                  "layout": {
+                    "direction": "row",
+                    "gap": 24,
+                    "align": {
+                      "main": "start",
+                      "cross": "center"
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "name": "actions",
+                    "type": "FRAME",
+                    "size": {
+                      "w": 357,
+                      "h": 24
+                    },
+                    "styles": {
+                      "layout": {
+                        "direction": "row",
+                        "gap": 24,
+                        "align": {
+                          "main": "start",
+                          "cross": "center"
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "link",
+                        "type": "INSTANCE",
+                        "size": {
+                          "w": 0,
+                          "h": 0
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "card",
+        "type": "FRAME",
+        "size": {
+          "w": 405,
+          "h": 513
+        },
+        "styles": {
+          "bg": "rgb(245, 245, 245)",
+          "radius": 16,
+          "layout": {
+            "direction": "column",
+            "gap": 0,
+            "align": {
+              "main": "start",
+              "cross": "start"
+            }
+          }
+        },
+        "children": [
+          {
+            "name": "frame-634190",
+            "type": "FRAME",
+            "size": {
+              "w": 405,
+              "h": 257
+            },
+            "styles": {
+              "layout": {
+                "direction": "column",
+                "gap": 10,
+                "align": {
+                  "main": "start",
+                  "cross": "start"
+                },
+                "padding": [
+                  12,
+                  12,
+                  12,
+                  12
+                ]
+              }
+            },
+            "children": [
+              {
+                "name": "image",
+                "type": "FRAME",
+                "size": {
+                  "w": 381,
+                  "h": 233
+                },
+                "styles": {
+                  "layout": {
+                    "direction": "column",
+                    "gap": 0,
+                    "align": {
+                      "main": "end",
+                      "cross": "center"
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "name": "placeholder-image",
+                    "type": "RECTANGLE",
+                    "size": {
+                      "w": 381,
+                      "h": 233
+                    },
+                    "styles": {
+                      "radius": 12
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "content",
+            "type": "FRAME",
+            "size": {
+              "w": 405,
+              "h": 256
+            },
+            "styles": {
+              "layout": {
+                "direction": "column",
+                "gap": 24,
+                "align": {
+                  "main": "center",
+                  "cross": "start"
+                },
+                "padding": [
+                  24,
+                  24,
+                  24,
+                  24
+                ]
+              }
+            },
+            "children": [
+              {
+                "name": "content-top",
+                "type": "FRAME",
+                "size": {
+                  "w": 357,
+                  "h": 160
+                },
+                "styles": {
+                  "layout": {
+                    "direction": "column",
+                    "gap": 8,
+                    "align": {
+                      "main": "start",
+                      "cross": "start"
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "name": "tagline-wrapper",
+                    "type": "FRAME",
+                    "size": {
+                      "w": 134,
+                      "h": 24
+                    },
+                    "styles": {
+                      "layout": {
+                        "direction": "row",
+                        "gap": 12,
+                        "align": {
+                          "main": "start",
+                          "cross": "center"
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "tag-outlined",
+                        "type": "INSTANCE",
+                        "size": {
+                          "w": 0,
+                          "h": 0
+                        }
+                      },
+                      {
+                        "name": "text",
+                        "type": "TEXT",
+                        "size": {
+                          "w": 70,
+                          "h": 20
+                        },
+                        "content": "5 min read",
+                        "styles": {
+                          "bg": "rgb(18, 18, 18)",
+                          "text": {
+                            "family": "Onest",
+                            "size": 14,
+                            "weight": "500",
+                            "align": "center"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "content",
+                    "type": "FRAME",
+                    "size": {
+                      "w": 357,
+                      "h": 128
+                    },
+                    "styles": {
+                      "layout": {
+                        "direction": "column",
+                        "gap": 16,
+                        "align": {
+                          "main": "start",
+                          "cross": "start"
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "heading",
+                        "type": "TEXT",
+                        "size": {
+                          "w": 357,
+                          "h": 64
+                        },
+                        "content": "Vreau să-mi înscriu copilul la creșă sau grădiniță",
+                        "styles": {
+                          "bg": "rgb(18, 18, 18)",
+                          "text": {
+                            "family": "Onest",
+                            "size": 24,
+                            "weight": "600",
+                            "align": "left"
+                          }
+                        }
+                      },
+                      {
+                        "name": "text",
+                        "type": "TEXT",
+                        "size": {
+                          "w": 357,
+                          "h": 48
+                        },
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                        "styles": {
+                          "bg": "rgb(56, 56, 56)",
+                          "text": {
+                            "family": "Onest",
+                            "size": 16,
+                            "weight": "400",
+                            "align": "left"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "actions",
+                "type": "FRAME",
+                "size": {
+                  "w": 357,
+                  "h": 24
+                },
+                "styles": {
+                  "layout": {
+                    "direction": "row",
+                    "gap": 24,
+                    "align": {
+                      "main": "start",
+                      "cross": "center"
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "name": "actions",
+                    "type": "FRAME",
+                    "size": {
+                      "w": 357,
+                      "h": 24
+                    },
+                    "styles": {
+                      "layout": {
+                        "direction": "row",
+                        "gap": 24,
+                        "align": {
+                          "main": "start",
+                          "cross": "center"
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "link",
+                        "type": "INSTANCE",
+                        "size": {
+                          "w": 0,
+                          "h": 0
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "card",
+        "type": "FRAME",
+        "size": {
+          "w": 405,
+          "h": 513
+        },
+        "styles": {
+          "bg": "rgb(245, 245, 245)",
+          "radius": 16,
+          "layout": {
+            "direction": "column",
+            "gap": 0,
+            "align": {
+              "main": "start",
+              "cross": "start"
+            }
+          }
+        },
+        "children": [
+          {
+            "name": "frame-634190",
+            "type": "FRAME",
+            "size": {
+              "w": 405,
+              "h": 257
+            },
+            "styles": {
+              "layout": {
+                "direction": "column",
+                "gap": 10,
+                "align": {
+                  "main": "start",
+                  "cross": "start"
+                },
+                "padding": [
+                  12,
+                  12,
+                  12,
+                  12
+                ]
+              }
+            },
+            "children": [
+              {
+                "name": "image",
+                "type": "FRAME",
+                "size": {
+                  "w": 381,
+                  "h": 233
+                },
+                "styles": {
+                  "layout": {
+                    "direction": "column",
+                    "gap": 0,
+                    "align": {
+                      "main": "end",
+                      "cross": "center"
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "name": "placeholder-image",
+                    "type": "RECTANGLE",
+                    "size": {
+                      "w": 381,
+                      "h": 233
+                    },
+                    "styles": {
+                      "radius": 12
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "content",
+            "type": "FRAME",
+            "size": {
+              "w": 405,
+              "h": 256
+            },
+            "styles": {
+              "layout": {
+                "direction": "column",
+                "gap": 24,
+                "align": {
+                  "main": "center",
+                  "cross": "start"
+                },
+                "padding": [
+                  24,
+                  24,
+                  24,
+                  24
+                ]
+              }
+            },
+            "children": [
+              {
+                "name": "content-top",
+                "type": "FRAME",
+                "size": {
+                  "w": 357,
+                  "h": 160
+                },
+                "styles": {
+                  "layout": {
+                    "direction": "column",
+                    "gap": 8,
+                    "align": {
+                      "main": "start",
+                      "cross": "start"
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "name": "tagline-wrapper",
+                    "type": "FRAME",
+                    "size": {
+                      "w": 134,
+                      "h": 24
+                    },
+                    "styles": {
+                      "layout": {
+                        "direction": "row",
+                        "gap": 12,
+                        "align": {
+                          "main": "start",
+                          "cross": "center"
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "tag-outlined",
+                        "type": "INSTANCE",
+                        "size": {
+                          "w": 0,
+                          "h": 0
+                        }
+                      },
+                      {
+                        "name": "text",
+                        "type": "TEXT",
+                        "size": {
+                          "w": 70,
+                          "h": 20
+                        },
+                        "content": "5 min read",
+                        "styles": {
+                          "bg": "rgb(18, 18, 18)",
+                          "text": {
+                            "family": "Onest",
+                            "size": 14,
+                            "weight": "500",
+                            "align": "center"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "content",
+                    "type": "FRAME",
+                    "size": {
+                      "w": 357,
+                      "h": 128
+                    },
+                    "styles": {
+                      "layout": {
+                        "direction": "column",
+                        "gap": 16,
+                        "align": {
+                          "main": "start",
+                          "cross": "start"
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "heading",
+                        "type": "TEXT",
+                        "size": {
+                          "w": 357,
+                          "h": 64
+                        },
+                        "content": "Vreau să-mi înscriu copilul la creșă sau grădiniță",
+                        "styles": {
+                          "bg": "rgb(18, 18, 18)",
+                          "text": {
+                            "family": "Onest",
+                            "size": 24,
+                            "weight": "600",
+                            "align": "left"
+                          }
+                        }
+                      },
+                      {
+                        "name": "text",
+                        "type": "TEXT",
+                        "size": {
+                          "w": 357,
+                          "h": 48
+                        },
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                        "styles": {
+                          "bg": "rgb(56, 56, 56)",
+                          "text": {
+                            "family": "Onest",
+                            "size": 16,
+                            "weight": "400",
+                            "align": "left"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "actions",
+                "type": "FRAME",
+                "size": {
+                  "w": 357,
+                  "h": 24
+                },
+                "styles": {
+                  "layout": {
+                    "direction": "row",
+                    "gap": 24,
+                    "align": {
+                      "main": "start",
+                      "cross": "center"
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "name": "actions",
+                    "type": "FRAME",
+                    "size": {
+                      "w": 357,
+                      "h": 24
+                    },
+                    "styles": {
+                      "layout": {
+                        "direction": "row",
+                        "gap": 24,
+                        "align": {
+                          "main": "start",
+                          "cross": "center"
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "link",
+                        "type": "INSTANCE",
+                        "size": {
+                          "w": 0,
+                          "h": 0
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "summary": {
+    "components": 0,
+    "instances": 6,
+    "frames": 28,
+    "texts": 9,
+    "hasAutoLayout": true,
+    "hasEffects": false
+  }
+}

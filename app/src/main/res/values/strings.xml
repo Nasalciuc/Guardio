@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Evo</string>
+    <!-- Common -->
+    <string name="back">Înapoi</string>
+    <string name="close">Închide</string>
+    <string name="send">Trimite</string>
+    <string name="try_again">Încearcă din nou</string>
+    <string name="selected">Selectat</string>
+    <string name="dropdown">Meniu derulant</string>
+
+    <!-- Report Problem Screen -->
+    <string name="report_incident_title">Raportează un incident</string>
+    <string name="type_of_incident">Tipul incidentului</string>
+    <string name="select_type">Selectează tipul</string>
+    <string name="description_of_incident">Descrierea incidentului</string>
+    <string name="describe_incident_placeholder">Descrie incidentul întâmpinat</string>
+    <string name="attachment_optional">Atașament (opțional)</string>
+    <string name="upload">Încarcă</string>
+    <string name="upload_file">Încarcă fișier</string>
+    <string name="choose_file">Alege fișier</string>
+    <string name="selected_file_fallback">fisier_selectat</string>
+    <string name="remove">Elimină</string>
+    <string name="want_response_title">Vrei să primești un răspuns de la noi?</string>
+    <string name="email_invalid">Te rugăm să introduci o adresă de email validă</string>
+    <string name="email_placeholder_focused">Introdu adresa ta de email</string>
+    <string name="email_placeholder">Email (opțional)</string>
+    <string name="choose_type_of_incident">Alege tipul incidentului</string>
+
+    <string name="problem_type_mal_13">MAL-13 (Malware general)</string>
+    <string name="problem_type_thr_01">THR-01 (Amenințări externe)</string>
+    <string name="problem_type_soc_10">SOC-10 (Suspiciuni de compromitere)</string>
+    <string name="problem_type_com_07">COM-07 (Cont compromis)</string>
+    <string name="problem_type_zro_18">ZRO-18 (Zero-Day)</string>
+    <string name="problem_type_vul_02">VUL-02 (Vulnerabilități)</string>
+    <string name="problem_type_phi_12">PHI-12 (Phishing)</string>
+    <string name="problem_type_exp_03">EXP-03 (Exploits)</string>
+    <string name="problem_type_inf_11">INF-11 (Informare/Alarme de securitate)</string>
+    <string name="problem_type_ops_20">OPS-20 (Probleme operaționale)</string>
+    <string name="problem_type_mra_16">MRA-16 (Ransomware)</string>
+    <string name="problem_type_mbn_15">MBN-15 (Botnet)</string>
+    <string name="problem_type_mwr_14">MWR-14 (Worm)</string>
+    <string name="problem_type_dos_08">DOS-08 (DoS)</string>
+    <string name="problem_type_mis_06">MIS-06 (Misconfigurations)</string>
+    <string name="problem_type_rpt_21">RPT-21 (False Positive)</string>
+    <string name="problem_type_oth_99">OTH-99 (Altele)</string>
+    <string name="problem_type_int_17">INT-17 (Amenințări interne)</string>
+    <!-- Quiz -->
+    <string name="quiz_title">Chestionar de securitate cibernetică</string>
+    <string name="question_progress">Întrebarea %1$d din %2$d</string>
+    <string name="result_title_expert">Expert în securitate cibernetică! 🛡️</string>
+    <string name="result_title_great">Foarte bine! 🔒</string>
+    <string name="result_title_well_done">Bună treabă! 🛡️</string>
+    <string name="result_title_good_effort">Efort bun! 🔐</string>
+    <string name="result_title_keep_learning">Continuă să înveți! 📚</string>
+    <string name="result_title_keep_practicing">Continuă să exersezi! 📖</string>
+
+    <!-- Report additions -->
+    <string name="affected_resources_label">Resurse/Sisteme afectate</string>
+    <string name="affected_resources_placeholder">Ex.: servere, stații, conturi, aplicații</string>
+    <string name="detection_date_label">Data detectării</string>
+    <string name="choose_date">Alege data</string>
+    <string name="select_date">Selectează</string>
+    <string name="date_placeholder">Selectează data</string>
+    <string name="reporter_email_label">Adresa raportorului</string>
+    <string name="reporter_email_placeholder">Adresa raportorului (opțional)</string>
+    <string name="reporter_email_placeholder_focused">Introdu adresa raportorului</string>
+
+    <!-- Scan verdicts -->
+    <string name="scan_status_safe">Sigur</string>
+    <string name="scan_status_suspicious">Suspicios</string>
+    <string name="scan_status_malicious">Malicios</string>
+    <string name="scan_status_unsafe">Nesigur</string>
+    <string name="scan_status_error">Eroare</string>
+    <string name="scan_status_scanning">Se scanează...</string>
+
+    <!-- Intent scan labels -->
+    <string name="blocked_unsafe_title">Blocată: Link nesigur</string>
+    <string name="blocked_body">Am blocat acest conținut pentru a te proteja.</string>
+    <string name="suspicious_title">Conținut suspect</string>
+    <string name="suspicious_body">Atenție sporită recomandată.</string>
+    <string name="safe_title">Nu au fost găsite amenințări</string>
+    <string name="safe_body">Poți continua în siguranță.</string>
+    <string name="could_not_scan">Nu am putut scana</string>
+    <string name="share_scan_label">Scanează cu MScan</string>
+    <string name="share_report_label">Raportează cu MScan</string>
+    <string name="override_open_anyway">Deschide oricum</string>
+    <string name="opening_in_browser">Se deschide în browser...</string>
+    <string name="choose_browser">Alege browser</string>
+    <string name="remember_domain_label">Salvează domeniul și deschide automat data viitoare</string>
+    <string name="open_now">Deschide acum</string>
+    <string name="auto_detected_type">Tip sugerat: %1$s (poți schimba)</string>
+    <string name="file_preview">Previzualizare</string>
+    <string name="continue_to_site">Continuă la site</string>
+
+
+</resources>
