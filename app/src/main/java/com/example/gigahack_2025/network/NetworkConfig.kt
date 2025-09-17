@@ -2,13 +2,13 @@ package com.example.gigahack_2025.network
 
 object NetworkConfig {
     // Backend configuration
-    // For Android emulator, use 10.0.2.2 to access localhost
-    // For physical device, use your computer's IP address
-    const val BASE_URL = "http://192.168.8.200:3001/"
+    // Production URL - secure HTTPS endpoint
+    const val BASE_URL = "https://api.guardio.app/"
     
-    // Alternative URLs for different setups:
+    // Development URLs (commented out for production):
+    // const val BASE_URL = "http://10.0.2.2:3000/" // For Android emulator
     // const val BASE_URL = "http://localhost:3000/" // For testing only
-    // const val BASE_URL = "http://192.168.1.100:3000/" // Replace with your computer's IP
+    // const val BASE_URL = "http://192.168.1.100:3000/" // For local development
     
     // Timeout configurations
     const val CONNECT_TIMEOUT_SECONDS = 30L

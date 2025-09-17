@@ -24,18 +24,18 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-    android:icon="@drawable/evo"
+        android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-    android:roundIcon="@drawable/evo"
+        android:roundIcon="@drawable/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.GIGAHACK_2025"
+        android:theme="@style/Theme.Guardio"
         android:enableOnBackInvokedCallback="true"
-        android:usesCleartextTraffic="true">
+        android:usesCleartextTraffic="false">
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.GIGAHACK_2025">
+            android:theme="@style/Theme.Guardio">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -43,13 +43,13 @@
             </intent-filter>
         </activity>
 
-        <!-- Activity that handles "Open with MScan" and Android Share targets -->
+        <!-- Activity that handles "Open with Guardio" and Android Share targets -->
         <activity
             android:name=".ScanIntentActivity"
             android:exported="true"
             android:label="@string/share_scan_label"
-            android:theme="@style/Theme.GIGAHACK_2025">
-            <!-- Open links with MScan (from any app: Notes, Messages, etc.) -->
+            android:theme="@style/Theme.Guardio">
+            <!-- Open links with Guardio (from any app: Notes, Messages, etc.) -->
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -85,7 +85,7 @@
             android:name=".ReportIntentActivity"
             android:exported="true"
             android:label="@string/share_report_label"
-            android:theme="@style/Theme.GIGAHACK_2025">
+            android:theme="@style/Theme.Guardio">
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
                 <category android:name="android.intent.category.DEFAULT" />

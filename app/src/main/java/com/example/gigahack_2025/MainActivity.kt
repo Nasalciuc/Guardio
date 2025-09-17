@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            GIGAHACK_2025Theme {
+            GuardioTheme {
                 val navigateToReport = intent?.getBooleanExtra("navigate_to_report", false) == true
                 MainApp(openReportInitially = navigateToReport)
             }

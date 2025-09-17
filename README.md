@@ -1,6 +1,6 @@
 # Guardio - Aplicație de Securitate Cibernetică
 
-Guardio (cunoscut anterior ca MScan) este o aplicație nativă Android de securitate cibernetică care se integrează perfect în sistemul de operare. Aceasta oferă utilizatorilor instrumente robuste pentru scanarea fișierelor/link-urilor, informații despre amenințările cibernetice și raportarea incidentelor, aliniindu-se cu brandul "M" al aplicațiilor guvernamentale din Moldova (MPass, MDelivery).
+Guardio este o aplicație nativă Android de securitate cibernetică care se integrează perfect în sistemul de operare. Aceasta oferă utilizatorilor instrumente robuste pentru scanarea fișierelor/link-urilor, informații despre amenințările cibernetice și raportarea incidentelor.
 
 ## Caracteristici principale
 

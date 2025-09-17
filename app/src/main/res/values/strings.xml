@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Evo</string>
+    <string name="app_name">Guardio</string>
     <!-- Common -->
     <string name="back">Înapoi</string>
     <string name="close">Închide</string>
@@ -81,8 +81,8 @@
     <string name="safe_title">Nu au fost găsite amenințări</string>
     <string name="safe_body">Poți continua în siguranță.</string>
     <string name="could_not_scan">Nu am putut scana</string>
-    <string name="share_scan_label">Scanează cu MScan</string>
-    <string name="share_report_label">Raportează cu MScan</string>
+    <string name="share_scan_label">Scanează cu Guardio</string>
+    <string name="share_report_label">Raportează cu Guardio</string>
     <string name="override_open_anyway">Deschide oricum</string>
     <string name="opening_in_browser">Se deschide în browser...</string>
     <string name="choose_browser">Alege browser</string>

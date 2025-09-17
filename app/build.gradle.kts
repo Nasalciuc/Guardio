@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.gigahack_2025"
+    namespace = "md.gov.guardio"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.gigahack_2025"
+        applicationId = "md.gov.guardio"
         minSdk = 24
     targetSdk = 35
         versionCode = 1
@@ -20,11 +20,17 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = false
+            isMinifyEnabled = true
+            isShrinkResources = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            signingConfig = signingConfigs.getByName("debug") // Change to release signing config for production
+        }
+        debug {
+            applicationIdSuffix = ".debug"
+            versionNameSuffix = "-debug"
         }
     }
     compileOptions {
