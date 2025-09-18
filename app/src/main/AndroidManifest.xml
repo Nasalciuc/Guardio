@@ -49,8 +49,8 @@
             android:exported="true"
             android:label="@string/share_scan_label"
             android:theme="@style/Theme.Guardio">
-            <!-- Open links with Guardio (from any app: Notes, Messages, etc.) -->
-            <intent-filter>
+            <!-- Open links with Guardio (from any app: Gmail, Notes, Messages, etc.) -->
+            <intent-filter android:autoVerify="true">
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />

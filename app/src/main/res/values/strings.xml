@@ -91,6 +91,7 @@
     <string name="auto_detected_type">Tip sugerat: %1$s (poți schimba)</string>
     <string name="file_preview">Previzualizare</string>
     <string name="continue_to_site">Continuă la site</string>
+    <string name="set_default_browser">Setează Guardio ca verificator implicit pentru link-uri</string>
 
 
 </resources>

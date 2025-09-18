@@ -13,7 +13,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.setValue
 import com.example.gigahack_2025.ui.screens.IntentScanScreen
-import com.example.gigahack_2025.ui.theme.GIGAHACK_2025Theme
+import com.example.gigahack_2025.ui.theme.GuardioTheme
 
 class ScanIntentActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -53,7 +53,7 @@ class ScanIntentActivity : ComponentActivity() {
         }
 
         setContent {
-            GIGAHACK_2025Theme {
+            GuardioTheme {
                 IntentScanScreen(
                     initialUrl = initialUrl,
                     initialFileUri = initialFileUri,

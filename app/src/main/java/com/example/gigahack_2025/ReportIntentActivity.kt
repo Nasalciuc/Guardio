@@ -6,7 +6,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 
 /**
- * Entry point when user shares to "Report with MScan". We reuse MainActivity and pass extras
+ * Entry point when user shares to "Report with Guardio". We reuse MainActivity and pass extras
  * that the ReportProblemScreen can later read (todo: wire extras consumption).
  */
 class ReportIntentActivity : ComponentActivity() {

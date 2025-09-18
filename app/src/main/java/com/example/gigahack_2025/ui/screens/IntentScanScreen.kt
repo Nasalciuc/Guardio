@@ -152,6 +152,9 @@ private fun SafeView(
     onOpen: () -> Unit,
     onClose: () -> Unit
 ) {
+    val context = LocalContext.current
+    var makeDefault by remember { mutableStateOf(false) }
+    
     ResultCard(
         icon = Icons.Filled.CheckCircle,
         title = stringResource(id = R.string.safe_title),
@@ -160,10 +163,42 @@ private fun SafeView(
         primaryLabel = stringResource(id = R.string.close),
         onPrimary = onClose,
         secondaryLabel = if (!url.isNullOrBlank()) stringResource(id = R.string.continue_to_site) else null,
-        onSecondary = if (!url.isNullOrBlank()) onOpen else null,
+        onSecondary = {
+            // If user selected to make Guardio default, show system dialog
+            if (makeDefault) {
+                val intent = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+                    Intent(android.provider.Settings.ACTION_APP_OPEN_BY_DEFAULT_SETTINGS)
+                        .setData(Uri.parse("package:" + context.packageName))
+                        .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                } else {
+                    Intent(android.provider.Settings.ACTION_APPLICATION_DETAILS_SETTINGS)
+                        .setData(Uri.parse("package:" + context.packageName))
+                        .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                }
+                context.startActivity(intent)
+                Toast.makeText(context, "Selectează 'Deschide link-uri compatibile' și activează opțiunea", Toast.LENGTH_LONG).show()
+            }
+            // Continue with opening the URL
+            onOpen()
+        },
         extraContent = {
             if (!url.isNullOrBlank()) {
                 Text(text = url, style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(top = 8.dp))
+                
+                // Add option to make Guardio the default handler for links
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    modifier = Modifier.padding(top = 16.dp)
+                ) {
+                    Checkbox(
+                        checked = makeDefault,
+                        onCheckedChange = { makeDefault = it }
+                    )
+                    Text(
+                        text = stringResource(id = R.string.set_default_browser),
+                        style = MaterialTheme.typography.bodyMedium
+                    )
+                }
             }
         }
     )
